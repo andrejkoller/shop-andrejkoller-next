@@ -53,7 +53,7 @@ export const ThemeSwitcher = () => {
           title={label}
           aria-label={label}
           aria-pressed={theme === value}
-          className={`flex items-center justify-center w-7 h-7 rounded-full transition-colors duration-200 cursor-pointer ${
+          className={`flex h-7 w-7 cursor-pointer items-center justify-center rounded-full transition-colors duration-200 ${
             theme === value
               ? "bg-(--color-muted-bg) text-(--color-primary)"
               : "text-(--color-muted) hover:text-(--color-primary)"

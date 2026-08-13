@@ -10,13 +10,8 @@ export default function ClientLayout({
   return (
     <ThemeProvider>
       <div className="flex flex-col min-h-screen">
-        {/* Header */}
         <Header />
-
-        {/* Main content */}
-        <main className="w-full min-h-screen grow">{children}</main>
-
-        {/* Footer */}
+        <main className="grow w-full min-h-screen">{children}</main>
         <Footer />
       </div>
     </ThemeProvider>
