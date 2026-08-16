@@ -16,6 +16,11 @@ export const footerLinksConfig: FooterSection[] = [
     links: [
       { key: "sheet-music", label: "Sheet Music", href: "/sheet-music" },
       { key: "books", label: "Books", href: "/books" },
+      {
+        key: "recommendations",
+        label: "Recommendations",
+        href: "/recommendations",
+      },
       { key: "papers", label: "Papers", href: "/papers" },
       { key: "about", label: "About", href: "/about" },
       { key: "blog", label: "Blog", href: "/blog" },
@@ -41,6 +46,18 @@ export const footerLinksConfig: FooterSection[] = [
         key: "eternalbravery",
         label: "Eternal Bravery",
         href: "https://eternalbravery.com",
+        isExternal: true,
+      },
+      {
+        key: "fadinghell",
+        label: "Fading Hell",
+        href: "https://fadinghell.com",
+        isExternal: true,
+      },
+      {
+        key: "insaneprophet",
+        label: "Insane Prophet",
+        href: "https://insaneprophet.com",
         isExternal: true,
       },
     ],
