@@ -5,8 +5,8 @@ import { ThemeSwitcher } from "./theme/theme-switcher";
 export const Footer = () => {
   return (
     <footer className="bg-(--color-background) before:block before:h-px before:w-full before:content-[''] before:bg-(--color-border)">
-      <div className="w-full max-w-300 mx-auto px-6 py-9">
-        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
+      <div className="w-full max-w-360 mx-auto px-8 py-9">
+        <div className="flex flex-col gap-10 lg:flex-row lg:justify-center">
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-4">
             {footerLinksConfig.map((section) => (
               <div key={section.title}>
@@ -32,31 +32,12 @@ export const Footer = () => {
               </div>
             ))}
           </div>
-
-          <div className="lg:max-w-60 shrink-0">
-            <h4 className="mb-4 text-sm font-medium text-(--color-primary)">
-              Subscribe to my newsletter
-            </h4>
-            <p className="mb-4 text-sm text-(--color-muted)">
-              Stay updated on new posts, book recommendations, and resources.
-            </p>
-            <form className="relative flex items-center rounded-md bg-(--color-muted-bg) focus-within:ring-1 focus-within:ring-(--color-primary)">
-              <input
-                type="email"
-                placeholder="you@domain.com"
-                className="min-w-0 flex-1 bg-transparent px-3 py-1.5 pr-24 text-sm text-(--color-primary) placeholder:text-(--color-muted) focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="absolute right-0.75 top-1/2 -translate-y-1/2 cursor-pointer rounded bg-(--color-muted-bg) border border-(--color-border) px-1.5 py-0.5 text-xs font-medium text-(--color-primary) transition-opacity hover:opacity-75"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex items-center justify-between mt-12">
+          <p className="text-sm font-medium text-(--color-muted)">
+            &copy; {new Date().getFullYear()} Andrej Koller
+          </p>
           <ThemeSwitcher />
         </div>
       </div>

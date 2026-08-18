@@ -6,14 +6,9 @@ export interface HeaderLink {
 
 export const headerLinksConfig: HeaderLink[] = [
   {
-    key: "sheet-music",
-    label: "Sheet Music",
-    href: "/sheet-music",
-  },
-  {
-    key: "books",
-    label: "Books",
-    href: "/books",
+    key: "shop",
+    label: "Shop",
+    href: "/shop",
   },
   {
     key: "papers",

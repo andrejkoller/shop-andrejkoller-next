@@ -7,18 +7,12 @@
   --color-foreground: rgb(255, 255, 255);
 
   --color-muted: rgb(102, 102, 102);
-  --color-muted-bg: rgb(30, 30, 30);
-
-  --color-primary: rgba(255, 255, 255, 1);
+  --color-primary: rgb(255, 255, 255);
   --color-hover: rgba(255, 255, 255, 0.65);
-
-  --color-bg-primary: rgba(255, 255, 255, 0.04);
-
-  --color-overlay: rgba(0, 0, 0, 0.5);
-
-  --color-border: rgba(255, 255, 255, 0.1);
-
+  --color-muted-bg: rgba(255, 255, 255, 0.1);
   --color-secondary: rgb(10, 10, 10);
+
+  --color-border: rgb(51, 51, 51);
 }
 
 [data-theme="light"] {
@@ -26,18 +20,12 @@
   --color-foreground: rgb(0, 0, 0);
 
   --color-muted: rgb(102, 102, 102);
-  --color-muted-bg: rgb(230, 230, 230);
-
-  --color-primary: rgba(0, 0, 0, 1);
+  --color-primary: rgb(0, 0, 0);
   --color-hover: rgba(0, 0, 0, 0.65);
-
-  --color-bg-primary: rgba(0, 0, 0, 0.04);
-
-  --color-overlay: rgba(255, 255, 255, 0.5);
-
-  --color-border: rgba(0, 0, 0, 0.1);
-
+  --color-muted-bg: rgba(0, 0, 0, 0.08);
   --color-secondary: rgb(245, 245, 245);
+
+  --color-border: rgb(204, 204, 204);
 }
 
 * {

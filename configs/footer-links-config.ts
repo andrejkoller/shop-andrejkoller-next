@@ -14,13 +14,7 @@ export const footerLinksConfig: FooterSection[] = [
   {
     title: "Pages",
     links: [
-      { key: "sheet-music", label: "Sheet Music", href: "/sheet-music" },
-      { key: "books", label: "Books", href: "/books" },
-      {
-        key: "recommendations",
-        label: "Recommendations",
-        href: "/recommendations",
-      },
+      { key: "shop", label: "Shop", href: "/shop" },
       { key: "papers", label: "Papers", href: "/papers" },
       { key: "about", label: "About", href: "/about" },
       { key: "blog", label: "Blog", href: "/blog" },
