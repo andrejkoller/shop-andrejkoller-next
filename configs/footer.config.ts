@@ -31,12 +31,6 @@ export const footerLinksConfig: FooterSection[] = [
         isExternal: true,
       },
       {
-        key: "qalamis",
-        label: "Qalamis",
-        href: "https://qalamis.com",
-        isExternal: true,
-      },
-      {
         key: "eternalbravery",
         label: "Eternal Bravery",
         href: "https://eternalbravery.com",

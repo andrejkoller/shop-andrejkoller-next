@@ -1,6 +1,6 @@
 "use client";
 
-import { headerLinksConfig } from "@/configs/header-links-config";
+import { headerLinksConfig } from "@/configs/header.config";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

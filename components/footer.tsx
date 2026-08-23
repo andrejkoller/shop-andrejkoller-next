@@ -1,4 +1,4 @@
-import { footerLinksConfig } from "@/configs/footer-links-config";
+import { footerLinksConfig } from "@/configs/footer.config";
 import Link from "next/link";
 import { ThemeSwitcher } from "./theme/theme-switcher";
 
